@@ -10,7 +10,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serverless": "serverless"
+    "start": "serverless offline start",
+    "serverless": "serverless",
+    "sls": "serverless"
   },
   "keywords": [],
   "author": "",
