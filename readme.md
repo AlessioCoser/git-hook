@@ -11,19 +11,21 @@ npm install
 ```
 
 
-## Run tests
+## Run tests
+
 To run the tests you have to execute this simple command:
 ```
 npm test
 ```
 
 
-## Run in local environment
+## Run in local environment
+
 To run application in local environment you have to execute this simple command:
 ```
 npm start
 ```
-You can view the response at url: `http://localhost:3000/github`
+You can view the response at url: `http://localhost:3000/hello`
 
 
 ## Deploy manually
