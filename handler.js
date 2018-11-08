@@ -2,7 +2,7 @@
 
 const { delayedResponse } = require('./lib/utils')
 
-module.exports.hello = async (event) => {
+exports.hello = async (event) => {
   const result = {
     statusCode: 200,
     body: JSON.stringify({
