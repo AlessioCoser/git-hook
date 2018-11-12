@@ -13,7 +13,8 @@
     "test": "mocha",
     "start": "serverless offline start",
     "serverless": "serverless",
-    "sls": "serverless"
+    "sls": "serverless",
+    "event": "docker run --rm -v \"$PWD\":/var/task lambci/lambda:nodejs8.10 $@"
   },
   "keywords": [],
   "author": "",

@@ -28,6 +28,19 @@ npm start
 You can view the response at url: `http://localhost:3000/hello`
 
 
+## Send an Event in an AWSLambda-like local environment
+
+You need docker to be running: this script will pull an AWSLambda-like image and runs the choosen function on it.
+```
+npm run event handler.hello '{"my":"event"}'
+```
+
+Using a real event:
+```
+npm run event handler.hello '$(cat http-event-example.json)'
+```
+
+
 ## Deploy manually
 **NB:** you have to configure AWS cli on your machine before your first manual deploy
 ```
