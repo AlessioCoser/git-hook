@@ -1,5 +1,3 @@
-'use strict';
-
 const { delayedResponse } = require('./lib/utils')
 
 exports.hello = async (event) => {
@@ -12,6 +10,4 @@ exports.hello = async (event) => {
   }
 
   return delayedResponse(event, result, 300)
-};
-
-
+}

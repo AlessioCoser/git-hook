@@ -1,5 +1,3 @@
-'use strict'
-
 const { deepEqual } = require('assert')
 const { hello } = require('../handler')
 
