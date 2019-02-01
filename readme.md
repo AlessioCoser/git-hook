@@ -1,8 +1,8 @@
 # Serverless Playground
 
 ## Requirements
-- [AWS Account Credentials with correct permissions](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 - [Node.js and npm](https://nodejs.org/en/download/package-manager/)
+- [Docker](https://docs.docker.com/install/overview/)
 
 ## Setup
 Install dependencies
@@ -40,9 +40,13 @@ Using a real event:
 npm run event handler.hello '$(cat http-event-example.json)'
 ```
 
+## Deploy
 
-## Deploy manually
-**NB:** you have to configure AWS cli on your machine before your first manual deploy
+### What you need
+- [AWS Account Credentials with correct permissions](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
+- [install and configure AWS cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+
+### Manual Deploy
 ```
 npm run sls deploy
 ```
