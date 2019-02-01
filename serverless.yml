@@ -1,4 +1,4 @@
-service: github-hook
+service: serverless-playground
 
 plugins:
   - serverless-offline

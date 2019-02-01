@@ -7,6 +7,6 @@ describe('hello', function () {
 
     const response = await hello(event)
 
-    deepEqual(response, {body: JSON.stringify({ message: "Go Serverless v1.0! Your function executed successfully!", input: {} }), statusCode: 200})
+    deepEqual(response, {body: JSON.stringify({ message: "This is a playground!", input: {} }), statusCode: 200})
   })
 })
